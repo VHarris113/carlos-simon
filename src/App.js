@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar />
+        {/* <Navbar /> */}
         {/* <Welcome /> */}
-        <p>Hello World!</p>
-        <Thoughts />
+        <h1>Hello World!</h1>
+        {/* <Thoughts /> */}
       </header>
     </div>
   );
