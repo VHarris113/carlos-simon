@@ -1,7 +1,8 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import Welcome from "./components/Welcome";
 import Thoughts from "./components/Thoughts";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
@@ -9,10 +10,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <Navbar /> */}
-        {/* <Welcome /> */}
-        <h1>Hello World!</h1>
-        {/* <Thoughts /> */}
+        <Welcome />
       </header>
+      <div><Thoughts /></div>
     </div>
   );
 }
