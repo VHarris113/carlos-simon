@@ -1,4 +1,7 @@
-import { Navbar, Thoughts, Welcome } from "./components";
+import React from "react";
+import Navbar from "./components/Navbar";
+import Welcome from "./components/Welcome";
+import Thoughts from "./components/Thoughts";
 import './App.css';
 
 function App() {
@@ -6,7 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar />
-        <Welcome />
+        {/* <Welcome /> */}
+        <p>Hello World!</p>
         <Thoughts />
       </header>
     </div>
