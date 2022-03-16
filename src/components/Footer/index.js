@@ -5,7 +5,7 @@ export default function Navbar() {
 
     return (
         <div>
-            <p>Hello world</p>
+            <p className="footer">Created by the UCF Coding Bootcamp of Winter 2021.</p>
         </div>
     )
     
