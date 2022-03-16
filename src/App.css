@@ -1,6 +1,9 @@
 * {
   background-color: #111331;
 }
+hr {
+  color: white;
+}
 
 .App {
   text-align: center;
